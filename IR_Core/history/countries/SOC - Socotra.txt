@@ -1,11 +1,12 @@
-government = tribal
-add_government_reform = tribal_city_state
+government = tribal 
+add_government_reform = elder_council
 government_rank = 1
 primary_culture = soqotri
 religion = nestorian
 technology_group = muslim
 capital = 1099
 historical_rival = MHR
+historical_friend = KDH
 
 
 #No information here, fell in 1511

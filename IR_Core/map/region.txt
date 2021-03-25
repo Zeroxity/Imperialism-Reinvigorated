@@ -76,11 +76,11 @@ scandinavia_region = { #2
 		east_finland_area
 		finnish_lappland_area
 		upplond_area
-		romsdalen_area
-		vestfold_area
-		rogaland_area
+		#romsdalen_area
+		#vestfold_area
+		#rogaland_area
 		uusima_area
-		
+		trakai_area
 	}
 }
 
@@ -296,7 +296,7 @@ poland_region = { #13 #Might need rework or rename
 		#lausitz_area
 		budejovice_area
 		#breslau_area - Removed for now - bigger areas
-		nur_area
+		#nur_area
 		#kalisz_area
 	}
 }
@@ -314,13 +314,11 @@ ruthenia_region = { #14
 		volhynia_area			#added by Paradox in 1.27, same id so no change needed.
 		#BTADDITIONS
 		bryansk_area
-		eastern_volhynia_area
+		#eastern_volhynia_area
 		severia_area
 		vitebsk_area
 		polotsk_area
 		novogrudok_area
-		yotvingia_area			#Moved from Baltic region in 11.5
-		trakai_area			#Moved from Baltic region in 11.5
 	}
 }
 
@@ -335,7 +333,6 @@ crimea_region = {
 		sloboda_ukraine_area			#Moved from Ruthenia
 		#BTADDITIONS
 		middle_don_area
-		lower_dnieper_area
 		pryazovia_area
 		#IR
 		taman_area
@@ -346,28 +343,21 @@ crimea_region = {
 
 balkan_region = { #Rumelia
 	areas = {
-		#croatia_area
-		#east_adriatic_coast_area
-		#bosnia_area
-		#serbia_area
-		#rascia_area
 		bulgaria_area
 		macedonia_area
 		northern_greece_area
 		morea_area
 		thrace_area
-		#albania_area
 		eastern_mediterrenean_islands_area			#Cut in 1.23 vanilla, but keeping it in BT for now
 		aegean_archipelago_area			#Added in 1.23 and moved from Anatolia in BT
 		#BTADDITIONS
 		western_aegean_area			#Cut in 1.23 vanilla, but keeping it in BT for now
-		#slavonia_area
+		western_thrace_area
 		upper_thrace_area
 		northern_macedonia_area
 		lower_danube_area
 		eastern_macedonia_area
 		northern_epirus_area
-		northern_thrace_area
 		aetolia_area
 		thessaly_area
 		danubian_plain_area
@@ -375,11 +365,13 @@ balkan_region = { #Rumelia
 		#montenegro_area
 		#krajina_area
 		#herzegovina_area
-		vidin_area
+		#vidin_area
 		#IRADDITIONS
 		#slovenia_area
+		hellas_area
 		south_aegean_area			#LeRoi
 		euboea_area
+		
 	}
 }
 
@@ -469,6 +461,7 @@ anatolia_region = {
 		lycia_area 
 		malatya_area
 		erzurum_area
+		cappadocia_area
 	}
 }
 
@@ -559,12 +552,16 @@ arabia_region = { #25
 		al_kharj_area
 		dhafrah_area
 		tawan_area
+		al_dhahirah_area
 		ash_sharqiyah_area
 		al_wusta_area
 		al_hirak_area
+		shabwah_area
+		shihr_area
 		al_hdaydah_area
 		najran_area
 		bishah_area
+		mikhlaf_area
 		al_jawf_area
 		badia_area
 		najd_area
@@ -844,7 +841,6 @@ indonesia_region = {
 		central_java_area
 		west_java_area
         cirebon_area
-		lesser_sunda_islands_area
 		southern_indian_islands_area
 	}
 	monsoon = {
@@ -1394,7 +1390,8 @@ malaya_region = {	#Western Indonesia Malaya.
 		perak_area
 		kedah_area
 		kelantan_area
-		riau_area
+		indonesian_islands_area
+		#riau_area
 	}
 	monsoon = {
 		00.10.01
@@ -1408,21 +1405,10 @@ malaya_region = {	#Western Indonesia Malaya.
 
 moluccas_region = {
 	areas = {
-		molluca_area
-		sulawesi_area
-		timor_area
-		east_timor_area
-		flores_area
-		south_sulawesi_area
-        luwu_area
-        banggai_area
+		molluca_area        
 		ceram_area
 		spice_islands_area
-		halmahera_area
-		sumba_area
-		donggala_area
-		mandar_area
-		buton_area
+		halmahera_area		
 	}
 	monsoon = {
 		00.10.01
@@ -1572,7 +1558,7 @@ indo_china_region = {
 		red_river_delta_area
         cao_bac_area
         central_highlands_area #also in australia
-		darlac_area
+		#darlac_area
 		indrapura_area
 		inner_cambodia_area
 	}
@@ -2003,6 +1989,7 @@ mesopotamia_region = {
 		nineveh_area
 		batihah_area
 		dulaim_area
+		bohtan_area
 	}
 }
 
@@ -2014,7 +2001,7 @@ sumatra_region = {
 		palembang_area
 		jambi_area
 		bengkulu_area
-		indonesian_islands_area
+		#indonesian_islands_area
 		barisan_area
 		minangkabau_area
 		batak_area
@@ -2456,7 +2443,7 @@ carpathia_region = {
 
 #NEW REGIONS 
 
-dinaric_region = { #Adriatic
+dinaric_region = {
 	areas = {
 		croatia_area
 		east_adriatic_coast_area
@@ -2468,8 +2455,9 @@ dinaric_region = { #Adriatic
 		krajina_area
 		herzegovina_area	
 		albania_area
-		#IR
 		south_albania_area
+		dubrovnik_area
+		kosovo_area
 	}
 }
 
@@ -2488,6 +2476,44 @@ borneo_region = {
 	}
 	monsoon = {
 		00.11.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+sulawesi_region = {
+	areas = {
+		sulawesi_area
+		south_sulawesi_area
+		luwu_area
+        banggai_area
+		donggala_area
+		mandar_area
+		buton_area
+	}
+	monsoon = {
+		00.10.01
+		00.12.30
+	}
+	monsoon = {
+		00.01.01
+		00.03.30
+	}
+}
+
+nusa_tenggara_region = {
+	areas = {
+		timor_area
+		east_timor_area
+		flores_area
+       	lesser_sunda_islands_area
+		sumba_area
+	}
+	monsoon = {
+		00.10.01
 		00.12.30
 	}
 	monsoon = {
@@ -2582,7 +2608,6 @@ unused_region = {
 					
 		east_greenland_area
 		northern_peloponnesus_area
-		western_thrace_area
 		western_macedonia_area
 		demone_area
 		noto_area

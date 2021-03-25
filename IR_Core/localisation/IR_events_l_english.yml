@@ -26,15 +26,15 @@
  setup.10.e: "Age-Locked Colonization"
  
  setup.101.t: "Development"
- setup.101.d: "Development has been reworked into Wealth, Infrastructure and Population. Wealth and Infrastructure may be upgraded manually; Wealth and Population grow and decline passively.\n\nEvery province has a Wealth Progress and Population Progress that ranges between 0 and 100. When Progress reaches 100, that type grows by 1; when it reaches 0, it declines. Wealth growth is determined by provincial Trade Value and Infrastructure divided by local logistics cost. Population growth is determined by Terrain and Infrastructure, subtracted by consumption (population multiplied by local logistics cost).\n\nThe chance that a famine occurs or escalates in a province is checked every year. Negative population progress and exceeding local carrying capacity puts a province at risk of famine. Should a famine occur, it will always initiate as a mild famine, with a nasty,but survivable yearlong modifier and small reduction in development. However, should famine proc the next year as well, that mild famine will then escalate, adding an even worse modifier, and reducing development even more."
+ setup.101.d: "Development has been reworked into Wealth, Infrastructure and Population. Wealth and Infrastructure may be upgraded manually; Wealth and Population grow and decline passively.\n\nEvery province has a Wealth Progress and Population Progress that ranges between 0 and 100. When Progress reaches 100, that type grows by 1; when it reaches 0, it declines. Wealth growth is determined by provincial Trade Value and Infrastructure divided by local logistics cost. Population growth is determined by Terrain and Infrastructure, subtracted by consumption (population multiplied by local logistics cost).\n\nThe chance that a famine occurs or escalates in a province is checked every year. Negative population progress and exceeding local carrying capacity puts a province at risk of famine. Should a famine occur, it will always initiate as a mild famine, with a nasty but survivable modifier and small reduction in development. However, should famine proc again thereafter, that mild famine will then escalate, adding an even worse modifier, and reducing development even more."
  setup.102.t: "Diseases"
- setup.102.d: "Being packed in close spaces with livestock and bustling trade, especially when war or famine causes the social order to buckle, allows IR_disease to fester. Ingame, 13 major diseases will crop up, in three broad categories. Some, like Typhus, linger in urban areas and dense population bases, occasionally flaring into localized but devastating outbreaks. Others, such as Cholera, may also achieve epidemic status, spreading far and wide from regions impacted by famine and war, with a 50% chance of spreading to each adjacent province as they go. Setpiece events from the meeting of worlds, the final form of infectious diseases are a one-time trigger to scythe across native populations of the Americas and Oceania, never to return again."
+ setup.102.d: "Being packed in close spaces with livestock and bustling trade, especially when war or famine causes the social order to buckle, allows disease to fester. Ingame, 13 major diseases will crop up, in three broad categories. Some, like Typhus, linger in urban areas and dense population bases, occasionally flaring into localized but devastating outbreaks. Others, such as Cholera, may also achieve epidemic status, spreading far and wide from regions impacted by famine and war, with a 50% chance of spreading to each adjacent province as they go. Setpiece events from the meeting of worlds, the final form of infectious diseases are a one-time trigger to scythe across native populations of the Americas and Oceania, never to return again."
  setup.103.t: "Buildings"
  setup.103.d: "Buildings have been greatly altered. Urban infrastructure can be constructed when a certain population and economic threshold is met, and certain buildings can only be built in cities. Infrastructure buildings increase the amount of Infrastructure a province can have, crucial to develop a production and trade base as well as grow wealth and population. Enough infrastructure buildings may also allow you to replace the trade goods in a targeted province. Additionally, some buildings - specifically naval and administrative buildings - can only be supported by a city, and conversely many buildings (often military or faith-based) can only exist in the hinterland. Finally, there are country-unique buildings that provide large, flat bonuses for relatively focused empires."
  setup.104.t: "Colonial Region Sales"
  setup.104.d: "Colonial Regions may be bought through the diplomatic interface, but the diplomatic action may only be taken Human players."
  setup.105.t: "Age-Locked Colonization"
- setup.105.d: "Some provinces are no longer able to be colonized from the Age of Discovery. Now, to better represent the historical expansion taken by the European powers due to a variety of factors such as IR_disease and climate, certain provinces will only become available for colonization after reaching the Age of Reformation, Absolutism, or Revolutions."
+ setup.105.d: "Some provinces are no longer able to be colonized from the Age of Discovery. Now, to better represent the historical expansion taken by the European powers due to a variety of factors such as disease and climate, certain provinces will only become available for colonization after reaching the Age of Reformation, Absolutism, or Revolutions."
 
  
  setup.11.t: "Vassals"
@@ -45,7 +45,7 @@
  setup.11.d1: "Tributaries, Vassals, and Marches"
  
  setup.111.t: "Fiefdoms"
- setup.111.d: "Fiefdoms are small feudal subjects that are of the same culture-group and same religious-group as your nation. You must have embraced Feudalism, not follow a Pagan religion, and be of the Western, Eastern, Anatolian, Muslim, Indian, Chinese, Indochinese, Malay, High American, or Exiled tech groups. There are two main exceptions. The Holy Roman Empire will function like one big culture-group so long as both parties are members, excluding Electors, Free Cities, and the Emperor. Muslim nations will be able to make fiefs of any other neighboring Muslim nation, or one of the same culture-group"
+ setup.111.d: "Fiefdoms are small feudal subjects that are of the same culture-group and same religious-group as your nation. You must have embraced Feudalism, not follow a Pagan religion, and be of the Western, Eastern, Anatolian, Muslim, Indian, Chinese, Indochinese, Malay or High American tech groups. There are two main exceptions. The Holy Roman Empire will function like one big culture-group so long as both parties are members, excluding Electors, Free Cities, and the Emperor. Muslim nations will be able to make fiefs of any other neighboring Muslim nation, or one of the same culture-group (but different religion)."
  setup.112.t: "Domains"
  setup.112.d: "Domains are special vassals intended to represent the various realms, domains, developed colonial holdings, commonwealths, and cokingdoms. In other words, Domains can be thought of as the ultimate vassals of your empire. Oftentimes received as a reward for completing a set of missions, Domains take over the day-to-day management of the area while also providing excellent economic benefits and will remain exceptionally loyal in all but the most extreme cases. "
  setup.113.t: "Confederates"
@@ -101,6 +101,7 @@
  setup.3.b: "Custom Rulesets" 
  setup.3.c: "Native Removal by Region" 
  setup.3.d: "Westernize Dynastic Names"
+ setup.3.e: "DEV - Fast Build Toggle"
  
  ottomanwesterndynasticnames_tt: "The Name of [TUR.GetName] changes to Ottomans"
  mamlukswesterndynasticnames_tt: "The Name of [MAM.GetName] changes to Mamluks"
@@ -379,25 +380,25 @@
  IR_disease.x.b: "Quarantine [Root.GetName]!"
 
  IR_disease.1.t: "Measles Outbreak in [Root.GetName]"
- IR_disease.1.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by a red rash and a high fever, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.1.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by a red rash and a high fever, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.2.t: "Plague Outbreak in [Root.GetName]"
- IR_disease.2.d: "There are rumors of a contagious infection spreading in [Root.GetName]. Characterized by dark and swollen lymph nodes - known as buboes - as well as fever and vomiting, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.2.d: "There are rumors of a contagious infection spreading in [Root.GetName]. Characterized by dark and swollen lymph nodes - known as buboes - as well as fever and vomiting, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.3.t: "Yellow Fever Outbreak in [Root.GetName]"
- IR_disease.3.d: "There are rumors of a mosquito-bourne virus spreading in [Root.GetName]. Characterized by uncontrolled bleeding and liver failure, causing the skin to become jaundiced, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.3.d: "There are rumors of a mosquito-bourne virus spreading in [Root.GetName]. Characterized by uncontrolled bleeding and liver failure, causing the skin to become jaundiced, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.4.t: "Smallpox Outbreak in [Root.GetName]"
- IR_disease.4.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by fluid-filled macules that cover the body, in addition to fever, intense scarring, and occasional blindness, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.4.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by fluid-filled macules that cover the body, in addition to fever, intense scarring, and occasional blindness, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.5.t: "Typhus Outbreak in [Root.GetName]"
- IR_disease.5.d: "There are rumors of a parasite-bourne infection spreading in [Root.GetName]. Characterized by sudden fever, a dark rash, sensitivity to light, and delirium, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.5.d: "There are rumors of a parasite-bourne infection spreading in [Root.GetName]. Characterized by sudden fever, a dark rash, sensitivity to light, and delirium, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.6.t: "Influenza Outbreak in [Root.GetName]"
- IR_disease.6.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by high fever, runny nose, sore throat, joint pain, headaches, coughing, and fatigue, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.6.d: "There are rumors of a highly contagious virus spreading in [Root.GetName]. Characterized by high fever, runny nose, sore throat, joint pain, headaches, coughing, and fatigue, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.7.t: "Salmonella Outbreak in [Root.GetName]"
- IR_disease.7.d: "There are rumors of a reoccuring infection spreading in [Root.GetName]. Characterized by diarrhea, abdominal cramps, fever, and dehydration, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the IR_disease run its due course?"
+ IR_disease.7.d: "There are rumors of a reoccuring infection spreading in [Root.GetName]. Characterized by diarrhea, abdominal cramps, fever, and dehydration, much suffering has been wrought on the local population. Should we quarantine the province to try and stem the spread, or let the disease run its due course?"
  
  IR_disease.11.t: "Measles Epidemic in [Root.GetName]"
  IR_disease.11.d: "Epidemic will spread <LOCALIZATION PENDING>"
@@ -1643,6 +1644,26 @@
  revenge_for_varna.100.a: "Hungary win"
  revenge_for_varna.100.b: "Ottoman win"
  
+ #Eyalet of Egypt
+ collapse_spice_trade:0 "Spice Trade Blockade"
+ 
+ #Eyalet of Egypt
+ eyalet_of_egypt:0 "Eyalet of Egypt"
+ eyalet_of_egypt.1.t: ""
+ eyalet_of_egypt.1.d1: ""
+ eyalet_of_egypt.1.1a: ""
+ 
+ eyalet_of_egypt.2.t: ""
+ eyalet_of_egypt.2.d: ""
+ eyalet_of_egypt.2.a: "."
+  
+ eyalet_of_egypt.100.t: ""
+ eyalet_of_egypt.100.d1: "Ottoman win"
+ eyalet_of_egypt.100.d2: "Mamluk win"
+ eyalet_of_egypt.100.a: " win"
+ eyalet_of_egypt.100.b: " win"
+ 
+ 
  #Majapahit
  majapahit_civil_war:0 "Majapahit Civil War"
  maj_civil_war.1.t:0 "Majapahit Civil War"
@@ -2116,6 +2137,7 @@
  IR_flavor_SAX.1.d: "The Saxon Fratricidal War was a war fought between the two brothers Frederick II and William III over ruled areas from 1446 to 1451. After a dispute over the division of certain family lands between Frederick II and William III, the Division of Altenburg eventually led to growing tensions between the two brothers and an inability to agree on who ruled which areas. After failed attempts at reconciliation, the war broke out."
  IR_flavor_SAX.1.a: "Grant Wilhelm his share of the inheritance." 
  IR_flavor_SAX.1.b: "Wilhelm will have to take it by force!"
+ IR_flavor_SAX.1.c: "Play as [THU.GetName] Instead."
  
  IR_flavor_SAX.2.t: "Treaty at Naumburg" 
  IR_flavor_SAX.2.d: "With the Saxon Fratricidal War still raging and devastating our lands. There have been calls for peace between the two brothers."
@@ -2126,6 +2148,20 @@
  IR_flavor_SAX.3.d: "With Frederick II dominating us in the war, we must decide on whether or not we should request Bohemian Aid."
  IR_flavor_SAX.3.a: "Seek aid from Bohemia" 
  IR_flavor_SAX.3.b: "We do not have the funds for this."
+ 
+ IR_flavor_SAX.5.t: "The Death of the [Root.GetAdjective] Ruler"
+ IR_flavor_SAX.5.d: "Our Ruler has passsed away. By right of our family the inheritance goes to our Brother."
+ IR_flavor_SAX.5.a: "No king can rule forever."
+ 
+ IR_flavor_SAX.6.t: "The Treaty of Leipzig"
+ IR_flavor_SAX.6.d: "With the reunification of the Saxon lands under one ruler. Our brother has requested instead that he should be granted a share of this new inheritance as well."
+ IR_flavor_SAX.6.a: "Grant him some land which we just reacquired."
+ IR_flavor_SAX.6.c: "Play as the country of [MEI.GetName]."
+ 
+ #Schmalkaldic Wars and things
+ #Not sure what to do, as it was a rather involved war.
+ #Treaty of Naumburg https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Saxony_after_the_Treaty_of_Naumburg_-_DE.png/1920px-Saxony_after_the_Treaty_of_Naumburg_-_DE.png
+ #Creating events for the Ernestine Duchies
  
  IR_flavor_BAV.1.t: "Death of the Ingolstadt Branch" 
  IR_flavor_BAV.1.d: "After a period of struggle between Ludwig VII and his son, Ludwig was imprisoned and his son ruled until 1445 when he passed away. Ludwig had no other sons and when he died in 1447 his lands were taken by Duke of Bavaria-Landshut."

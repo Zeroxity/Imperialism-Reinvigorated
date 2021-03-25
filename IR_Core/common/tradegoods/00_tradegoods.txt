@@ -2944,7 +2944,7 @@ bt_trade_good_books = {
 #Imperialism Reinvigorated trade goods
 
 ir_rice = {
-	color = { 0.99 0.99 0.99 }
+	color = { 0.92 0.85 0.80 }
 	modifier = {
 		reinforce_speed = 0.2
 	}
@@ -3292,10 +3292,11 @@ ir_dates = {
 	color = { 0.98 0.23 0.23 }
 	modifier = {
 		global_missionary_strength = 0.01
+		development_cost = -0.05
 	}
 	province = {
 		supply_limit = 1
-		local_defensiveness = 0.1
+		trade_goods_size_modifier = 0.5
 	}
 	chance = {
 		factor = 1

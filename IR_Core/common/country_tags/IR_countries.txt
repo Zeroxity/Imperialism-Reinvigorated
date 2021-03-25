@@ -441,6 +441,7 @@ SHI = "countries/ShinarCrusader.txt"
 ASR = "countries/AsshurCrusader.txt" 
 ELA = "countries/ElamCrusader.txt" 
 BSS = "countries/BassorahCrusader.txt" 
+GMB = "countries/Gombraun.txt"
 HIP = "countries/Hippo.txt" 
 CPS = "countries/Capsa.txt" 
 CNS = "countries/CrusaderConstantine.txt" 
@@ -1319,6 +1320,8 @@ OMG = "countries/Omagua.txt"
 TMI = "countries/Temimino.txt"
 
 ###Special Domain Tags
+#Ottomans
+ISR = "countries/OttomanEgypt.txt"
 #Portugal
 MR1 = "countries/Marrocos.txt" #Portuguese puppet Morocco
 RJ1 = "countries/Hindustao.txt" #Portuguese puppet India

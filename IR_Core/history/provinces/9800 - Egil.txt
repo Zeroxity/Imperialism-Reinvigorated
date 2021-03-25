@@ -1,10 +1,10 @@
 # IR Anatolia
 
-owner = AKK		#Egil
-controller = AKK
-add_core = AKK
+owner = EGL
+controller = EGL
+add_core = EGL
 add_core = HPT 
-culture = zaza
+culture = kurdish		#Removing Zaza for now, may split Kurdish someday
 religion = coptic
 capital = "Egil"
 trade_goods = grain			

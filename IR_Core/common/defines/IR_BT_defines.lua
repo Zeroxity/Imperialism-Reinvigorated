@@ -1,6 +1,7 @@
  -- IR + BT defines
  -- DO NOT CHANGE OR REPLACE WITHOUT PERMISSION PLEASE
   -- NGame changes
+-- NDefines.NGame.START_DATE = "1291.5.18" --from 1444.11.11 - per Draiocht's 1291
 NDefines.NGame.END_DATE = "1900.1.2" --from 1821.1.2
 NDefines.NGame.MAX_COLONIAL_NATIONS = 100 -- apparently pdx limited to 100 anyways - dumb af WHY IMPLEMENT A DEFINE IF IT NO USEFUL!?
 NDefines.NGame.MAX_CLIENT_STATES = 50		-- Max is 100 -- TODO: Lower this to 75 after 1.18 (used to start at K75 for some reason)
@@ -20,16 +21,16 @@ NDefines.NDiplomacy.AE_PROVINCE_CAP = 50			-- from 30
 NDefines.NDiplomacy.AE_OTHER_CONTINENT = 5 -- from 10
 NDefines.NDiplomacy.AE_SAME_CULTURE = 0.5
 NDefines.NDiplomacy.AE_SAME_CULTURE_GROUP = 0.75
-NDefines.NDiplomacy.AE_INFIDEL_CONQUEST = 0.5		-- different religion group conquered same religion province
+NDefines.NDiplomacy.AE_INFIDEL_CONQUEST = -0.25		-- different religion group conquered same religion province
 NDefines.NDiplomacy.AE_SAME_RELIGION = 0.25
 NDefines.NDiplomacy.AE_SAME_RELIGION_GROUP = 0.1
 NDefines.NDiplomacy.AE_DIFFERENT_RELIGION = -0.5
-NDefines.NDiplomacy.AE_HRE_INTERNAL = 2
-NDefines.NDiplomacy.AE_DISTANCE_BASE = 2
+NDefines.NDiplomacy.AE_HRE_INTERNAL = 1
+NDefines.NDiplomacy.AE_DISTANCE_BASE = 1.5
 NDefines.NDiplomacy.AE_SAME_OVERLORD = 0.5	
  -- Peace AE
-NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1			-- from 0p75
-NDefines.NDiplomacy.PO_RETURN_CORES_AE = 0.5			-- from 0p5
+NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 0.5			-- from 0p75
+NDefines.NDiplomacy.PO_RETURN_CORES_AE = 0.25			-- from 0p5
 NDefines.NDiplomacy.PO_FORM_PU_AE = 0.05		-- from 0p1
 NDefines.NDiplomacy.PO_CONCEDE_COLONIAL_AE = 0.5			-- from 0p25
 NDefines.NDiplomacy.PO_BECOME_VASSAL_AE = 0.25			-- from 0p5
@@ -136,7 +137,7 @@ NDefines.NCountry.REVOLT_TECH_MORALE = 0.01
 NDefines.NCountry.CROWN_LANDS_ALERT_THRESHOLD = 35
 --PROSPERITY/DEV CHANGES
 NDefines.NCountry.PROSPERITY_MONTHLY_DECLINE = -2.5				-- monthly tick - WAS -2, ASSUME THAT THIS IS THE DEVASTATION REDUCTION, LETS SET TO -1 FOR NOW, PENDING TESTING
-NDefines.NCountry.PROSPERITY_INCREASE_SIZE= 0.05				-- if diceroll of d20< monarch stat, while possible ot increase - WAS 1, TURNED TO 0 CAUSE WHY SHOULD MONARCH INCREASE PROSP?? - PROBABLY SHOULD HANDLE THIS THROUGH EVENT/EDICT
+NDefines.NCountry.PROSPERITY_INCREASE_SIZE= 0.5				-- if diceroll of d20< monarch stat, while possible ot increase - WAS 1, TURNED TO 0 CAUSE WHY SHOULD MONARCH INCREASE PROSP?? - PROBABLY SHOULD HANDLE THIS THROUGH EVENT/EDICT
  --Colonial
 NDefines.NCountry.MAX_CROWN_COLONIES = 2
 NDefines.NCountry.SIBERIAN_FRONTIER_DAILY_BASE = 5		-- monthly..

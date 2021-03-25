@@ -67,35 +67,61 @@
  
  #Trade Companies
  short_trade_company_north_china:0 "Zhili"
- trade_company_north_china:0 "Zhili Charter"
+ trade_company_north_china:0 "Zhili"
  TRADE_COMPANY_north_china:0 "[Root.GetAdjective] Zhili Company"
  short_trade_company_east_china:0 "Minzhe"
- trade_company_east_china:0 "Minzhe Charter"
+ trade_company_east_china:0 "Minzhe"
  TRADE_COMPANY_east_china:0 "[Root.GetAdjective] Minzhe Company"
  short_trade_company_south_china:0 "Liangguang"
- trade_company_south_china:0 "Liangguang Charter"
+ trade_company_south_china:0 "Liangguang"
  TRADE_COMPANY_south_china:0 "[Root.GetAdjective] Liangguang Company"
- short_trade_company_indochina:0 "Indochina"
- trade_company_indochina:0 "Indochina Charter"
- TRADE_COMPANY_indochina:0 "[Root.GetAdjective] Indochinese Company"
+ short_trade_company_indochina:0 "Siam"
+ trade_company_indochina:0 "Siam"
+ TRADE_COMPANY_siam:0 "[Root.GetAdjective] Siamese Company"
  short_trade_company_burma:0 "Burma"
- trade_company_burma:0 "Burma Charter"
+ trade_company_burma:0 "Burma"
  TRADE_COMPANY_burma:0 "[Root.GetAdjective] Burman Company"
  short_trade_company_north_india:0 "Hindustan"
- trade_company_north_india:0 "Hindustan Charter"
+ trade_company_north_india:0 "Hindustan"
  TRADE_COMPANY_north_india:0 "[Root.GetAdjective] Hindustan Company"
  short_trade_company_east_india:0 "Bengal"
- trade_company_east_india:0 "Bengal Charter"
+ trade_company_east_india:0 "Bengal"
  TRADE_COMPANY_east_india:0 "[Root.GetAdjective] Bengal Company"
  short_trade_company_west_india:0 "Indus"
- trade_company_west_india:0 "Indus Charter"
+ trade_company_west_india:0 "Indus"
  TRADE_COMPANY_west_india:0 "[Root.GetAdjective] Indus Company"
-
+ short_trade_company_deccan:0 "Deccan"
+ trade_company_deccan:0 "Deccan"
+ TRADE_COMPANY_deccan:0 "[Root.GetAdjective] Deccani Company"
+ short_trade_company_coromandel:0 "Coromandel"
+ trade_company_coromandel:0 "Coromandel"
+ TRADE_COMPANY_coromandel:0 "[Root.GetAdjective] Coromandel Company"
+ short_trade_company_east_africa:0 "Swahili"
+ trade_company_east_africa:0 "Swahili"
+ TRADE_COMPANY_east_africa:0 "[Root.GetAdjective] Swahili Company"
+ short_trade_company_west_africa:0 "Guinea"
+ trade_company_west_africa:0 "Guinea"
+ TRADE_COMPANY_west_africa:0 "[Root.GetAdjective] Swahili Company"
+ short_trade_company_south_africa:0 "Kalahari"
+ trade_company_south_africa:0 "Kalahari"
+ TRADE_COMPANY_south_africa:0 "[Root.GetAdjective] Kalahari Company"
+ short_trade_company_moluccas:0 "Moluccas"
+ trade_company_moluccas:0 "Moluccas"
+ short_trade_company_philippines:0 "Philippines"
+ trade_company_philippines:0 "Philippines"
+ short_trade_company_indonesia:0 "Indonesia"
+ trade_company_indonesia:0 "Indonesia"
+ short_trade_company_polynesia:0 "Polynesia"
+ trade_company_polynesia:0 "Polynesia"
  
  #Superregions
  near_east_superregion:0 "Middle East"
  near_east_superregion_adj:0 "Middle Eastern"
  near_east_superregion_name:0 "Middle East"
+ 
+ #Rev names
+ REVOLUTIONARY_NAME:0 "$NAME$"
+ REVOLUTIONARY_SHORT_NAME:0 "$NAME$"
  
  #Centers of Trade
  natural_harbor:0 "Natural Harbor"
@@ -120,19 +146,23 @@
  regional_market_desc:0 "This city is a major regional market and traders regulary frequent it to buy and sell goods."
  world_trade_center_desc:0 "This city is without peer in global markets. Traders from far across the globe travel here to make their fortunes."
 
+ # 
+ bonus_from_merchant_republics:2 "Nearby Merchant Activity"
+ bonus_from_merchant_republics_for_trade_league_member:2 "Nearby Merchant Activity"
+
  #Trade Goods
  chinaware:0 "Porcelain"
  chinawareDESC:0 "Porcelain are exceptionally well-crafted ceramics renowned throughout the globe for their value. Typically originating from the Orient, the lengths foreign traders will go to acquire Porcelain is only matched by their domestic demands for such luxuries."
  tropical_wood:0 "Hardwood"
- tropical_woodDESC:0 "Used for everything from chess pieces to high quality furniture, hardwoods have always been considered an expensive and exclusive commodity. While many of these wood types have be new to the European market the demand soon rose and the trafficking of Mahogany, Teak, Ebony or other rare hardwoods because a major business."
+ tropical_woodDESC:0 "Used for everything from chess pieces to high quality furniture, hardwoods have always been considered an expensive and exclusive commodity. Upon access to the burgeouning global markets, demand swiftly rose for the trafficking of Mahogany, Teak, Ebony and other rare hardwoods."
  
  
 
  ## Terrain
  ###reimagined
- farmlands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y16§! \nPopulation Growth: §16§! \nCarrying Capacity: §Y8§! \nInfrastructure Limit: §Y8§! \n-------------- \nFarmlands terrain is characterized by extensive agricultural fields and urban developments."
- grasslands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y12§! \nPopulation Growth: §Y12§! \nCarrying Capacity: §Y6§! \nInfrastructure Limit: §Y6§! \n-------------- \nGrasslands terrain is characterized by wide plains dominated by lush grasses."
- drylands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y10§! \nPopulation Growth: §Y10§! \nCarrying Capacity: §Y6§! \nInfrastructure Limit: §Y6§! \n-------------- \nDrylands terrain is characterized by wide tracts of dry and fertile scrubland."
+ farmlands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y12§! \nPopulation Growth: §12§! \nCarrying Capacity: §Y8§! \nInfrastructure Limit: §Y8§! \n-------------- \nFarmlands terrain is characterized by extensive agricultural fields and urban developments."
+ grasslands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y10§! \nPopulation Growth: §Y10§! \nCarrying Capacity: §Y6§! \nInfrastructure Limit: §Y6§! \n-------------- \nGrasslands terrain is characterized by wide plains dominated by lush grasses."
+ drylands_desc:0 "Type: §TFertile§! \nWealth Growth: §Y9§! \nPopulation Growth: §Y9§! \nCarrying Capacity: §Y6§! \nInfrastructure Limit: §Y6§! \n-------------- \nDrylands terrain is characterized by wide tracts of dry and fertile scrubland."
  woods:0 "Woodlands"
  woods_desc:0 "Type: §TProductive§! \nWealth Growth: §Y8§! \nPopulation Growth: §Y8§! \nCarrying Capacity: §Y5§! \nInfrastructure Limit: §Y5§! \n-------------- \nWoodlands terrain is characterized by scattered forests interspersed by fertile groves and clearings."
  forest:0 "Taiga"
@@ -155,7 +185,7 @@
  tundra:0 "Tundra"
  tundra_desc:0 "Type: §TBarren§! \nWealth Growth: §Y2§! \nPopulation Growth: §Y1§! \nCarrying Capacity: §Y1§! \nInfrastructure Limit: §Y2§! \n-------------- \nTundra terrain is characterized by absence of trees, permafrost and rugged patches of lichens and mosses insterspersed with seasonal ponds."
  badlands:0 "Badlands"
- badlands_desc:0 "Type: §TRugged§! \nWealth Growth: §Y2§! \nPopulation Growth: §Y2§! \nCarrying Capacity: §Y2§! \nInfrastructure Limit: §Y2§! \n-------------- \nBadlands terrain is characterized by steep slopes, minimal vegetation, and arid channels carved by waterflow."
+ badlands_desc:0 "Type: §TRugged§! \nWealth Growth: §Y2§! \nPopulation Growth: §Y2§! \nCarrying Capacity: §Y2§! \nInfrastructure Limit: §Y2§! \n-------------- \nBadlands terrain is characterized by steep slopes, minimal vegetation, and rocky channels carved by erosion."
 
  #Development Overhaul
  IR_PRODUCTION:1 "Production"
@@ -204,7 +234,7 @@
  IMPROVED_COUNT_TRIGGER_LESS:0 ""
  IMPROVED_COUNT_TRIGGER_AT_LEAST:0 ""
  IMP_PROV_COST:0 ""
- IMP_PROV_COST_INFO:0 "§YIncrease Wealth§!: 25 £adm£ and 25¤.\n§YImprove Infrastructure§!: 25 £dip£, 25 £mil£, and 50¤.\n§YPerform Census§!: view province statistics and pass edicts"
+ IMP_PROV_COST_INFO:0 "§YIncrease Wealth§!: 5 £adm£ and 25¤.\n§YImprove Infrastructure§!: 25 £mil£ and 50¤.\n§YPerform Census§!: view province statistics and pass edicts"
  IMP_PROV_COST_INFO_2:0 "§Y$PROV$§! has been improved $COUNT|Y$ time(s)."
  NUM_IMP_PROV_COST_INFO:0 "§Y$PROV$§! has been improved $COUNT|Y$ time(s)."
  IMPR_FURTHER_MODIFIED_BY:0 ""

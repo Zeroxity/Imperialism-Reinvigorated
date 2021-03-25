@@ -1,7 +1,7 @@
 #2341 - Sharqiyah
 
-owner = OMA
-controller = OMA
+owner = ORM
+controller = ORM
 culture = omani_culture
 religion = ibadi
 capital = "Sur"
@@ -11,7 +11,9 @@ base_tax = 3
 base_production = 3
 base_manpower = 2 
 is_city = yes
+add_core = ORM
 add_core = OMA
+add_core = QHT
 
 discovered_by = muslim
 discovered_by = ottoman
@@ -21,6 +23,11 @@ discovered_by = east_african
 
 
 add_permanent_province_modifier = {       name = climate_sicco        duration = -1 }
+
+1444.11.11 = { owner = ORM controller = ORM add_core = ORM  } #STANDARD
+1444.11.12 = { owner = QHT controller = QHT  remove_core = ORM } # EXPANDED
+1444.11.14 = { owner = ORM controller = ORM add_core = ORM  } # PLUS ULTRA
+
 1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
 
 1515.1.1 = {
