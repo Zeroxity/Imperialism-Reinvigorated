@@ -1,0 +1,19 @@
+# No previous file for Ais
+
+owner = TEX
+controller = TEX
+add_core = TEX
+culture = texan
+religion = catholic #protestant
+capital = "Ais"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 2
+base_manpower = 1 
+
+
+
+discovered_by = north_american
+
+1519.1.1 = { discovered_by = SPA } # Alvarez de Piñeda explored the Gulf Coast

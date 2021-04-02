@@ -1,0 +1,19 @@
+# No previous file for Lipiyanes
+
+owner = TEX
+controller = TEX
+add_core = TEX
+culture = texan
+religion = catholic #protestant
+capital = "Lipiyanes"
+trade_goods = unknown
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+
+
+
+discovered_by = north_american
+
+1541.1.1 = { discovered_by = SPA }

@@ -1,0 +1,21 @@
+#886 - Waco
+
+owner = TEX
+controller = TEX
+add_core = TEX
+culture = texan
+religion = catholic #protestant
+capital = "Waco"
+trade_goods = grain
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+
+
+
+discovered_by = north_american
+
+1541.1.1 = { discovered_by = SPA }
+

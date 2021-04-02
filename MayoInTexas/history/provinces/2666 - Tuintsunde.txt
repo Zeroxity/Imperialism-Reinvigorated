@@ -1,0 +1,21 @@
+# No previous file for Tuintsundé
+
+owner = TEX
+controller = TEX
+add_core = TEX
+culture = texan
+religion = catholic #protestant
+capital = "Tuintsundé"
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 2
+
+
+
+discovered_by = mesoamerican
+discovered_by = north_american
+
+1519.1.1 = { discovered_by = SPA } # Alonso Alvarez de Pineda
+1685.2.18 = { discovered_by = FRA } # René-Robert Cavelier
