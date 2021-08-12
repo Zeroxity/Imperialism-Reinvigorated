@@ -5,12 +5,13 @@
 owner = VAL		#Martí I of Aragon
 controller = VAL
 add_core = VAL
+add_core = ORH
 culture = catalan
 religion = catholic
 hre = no
 base_tax = 6
 base_production = 6
-trade_goods = ir_fruit
+trade_goods = fruit
 base_manpower = 4  
 capital = "Alacant" 
 is_city = yes

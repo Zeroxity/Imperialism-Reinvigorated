@@ -485,8 +485,8 @@ trade_good_price_high = {
     	trade_goods = ivory
     	trade_goods = gems
     	trade_goods = coal
-    	trade_goods = bt_trade_good_books
-    	trade_goods = ir_silver
+    	trade_goods = books
+    	trade_goods = silver
     }
 }
 trade_good_price_med = {
@@ -504,10 +504,10 @@ trade_good_price_med = {
     	trade_goods = copper
    		trade_goods = salt
    		trade_goods = cloth
-   		trade_goods = ir_whales
-   		trade_goods = ir_olives
-   		trade_goods = ir_marble
-   		trade_goods = ir_dates
+   		trade_goods = whales
+   		trade_goods = olives
+   		trade_goods = marble
+   		trade_goods = dates
     }
 }
 

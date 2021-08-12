@@ -318,174 +318,439 @@ IR_check_dev_variables = {
 		###
 		trigger_switch = {
 			on_trigger = trade_goods
-			grain = {
+			birds = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:birds_store	} 
+			}
+			bison = {
 				multiply_variable = { which = IR_trade_value value = 1.5 } 
-				set_variable = { which = IR_price_mod which = event_target:grain_store } 
+				set_variable = { which = IR_price_mod which = event_target:bison_store	} 
 			}
-			wine = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:wine_store } 
-			}
-			wool = {
-				multiply_variable = { which = IR_trade_value value = 1.5 } 
-				set_variable = { which = IR_price_mod which = event_target:wool_store } 
-			}
-			cloth = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:cloth_store } 
-			}
-			fish = {
-				multiply_variable = { which = IR_trade_value value = 1  } 
-				set_variable = { which = IR_price_mod which = event_target:fish_store } 
-			}
-			fur = {
+			camels = {
 				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:fur_store } 
-			}
-			salt = {
-				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:salt_store } 
-			}
-			naval_supplies = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:naval_supplies_store } 
+				set_variable = { which = IR_price_mod which = event_target:camels_store	} 
 			}
 			copper = {
 				multiply_variable = { which = IR_trade_value value = 1.5 } 
 				set_variable = { which = IR_price_mod which = event_target:copper_store	} 
 			}
-			iron = {
+			crustaceans = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:crustaceans_store	} 
+			}
+			dates = {
 				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:iron_store } 
+				set_variable = { which = IR_price_mod which = event_target:dates_store } 
 			}
-			slaves = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:slaves_store } 
-			}
-			ivory = {
-				multiply_variable = { which = IR_trade_value value = 6 } 
-				set_variable = { which = IR_price_mod which = event_target:ivory_store } 
-			}
-			tea = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:tea_store } 
-			}
-			chinaware = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:chinaware_store } 
-			}
-			spices = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:spices_store } 
-			}
-			coffee = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:coffee_store } 
-			}
-			cotton = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:cotton_store } 
-			}
-			sugar = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:sugar_store } 
-			}
-			tobacco = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:tobacco_store } 
-			}
-			cocoa = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:cocoa_store } 
-			}
-			silk = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:silk_store } 
-			}
-			tropical_wood = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:tropical_wood_store } 
-			}
-			dyes = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:dyes_store } 
-			}
-			livestock = {
+			fish = {
 				multiply_variable = { which = IR_trade_value value = 1  } 
-				set_variable = { which = IR_price_mod which = event_target:livestock_store } 
+				set_variable = { which = IR_price_mod which = event_target:fish_store } 
+			}
+			fruit = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:fruit_store } 
+			}
+			fur = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:fur_store } 
+			}
+			#gold = {
+			#}
+			grain = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:grain_store } 
+			}
+			hardwood = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:hardwood_store } 
+			}
+			herbs = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:herbs_store } 
+			}
+			horses = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:horses_store } 
 			}
 			incense = {
 				multiply_variable = { which = IR_trade_value value = 2.5 } 
 				set_variable = { which = IR_price_mod which = event_target:incense_store } 
 			}
-			glass = {
+			ivory = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:ivory_store } 
+			}
+			jade = {
+				multiply_variable = { which = IR_trade_value value = 2  } 
+				set_variable = { which = IR_price_mod which = event_target:jade_store } 
+			}
+			livestock = {
+				multiply_variable = { which = IR_trade_value value = 1  } 
+				set_variable = { which = IR_price_mod which = event_target:livestock_store } 
+			}
+			maize = {
+				multiply_variable = { which = IR_trade_value value = 1 } 
+				set_variable = { which = IR_price_mod which = event_target:maize_store } 
+			}
+			millet = {
+				multiply_variable = { which = IR_trade_value value = 1  } 
+				set_variable = { which = IR_price_mod which = event_target:millet_store } 
+			}
+			palm = {
+				multiply_variable = { which = IR_trade_value value = 1  } 
+				set_variable = { which = IR_price_mod which = event_target:palm_store } 
+			}
+			pelagic_fish = {
+				multiply_variable = { which = IR_trade_value value = 1.5  } 
+				set_variable = { which = IR_price_mod which = event_target:pelagic_fish_store } 
+			}
+			potatoes = {
+				multiply_variable = { which = IR_trade_value value = 1 } 
+				set_variable = { which = IR_price_mod which = event_target:potatoes_store } 
+			}
+			pottery = {
+				multiply_variable = { which = IR_trade_value value = 2  } 
+				set_variable = { which = IR_price_mod which = event_target:pottery_store } 
+			}
+			poultry = {
+				multiply_variable = { which = IR_trade_value value = 1 } 
+				set_variable = { which = IR_price_mod which = event_target:poultry_store } 
+			}
+			rice = {
+				multiply_variable = { which = IR_trade_value value = 1  } 
+				set_variable = { which = IR_price_mod which = event_target:rice_store } 
+			}
+			salt = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:salt_store } 
+			}
+			shoal_fish = {
+				multiply_variable = { which = IR_trade_value value = 1 } 
+				set_variable = { which = IR_price_mod which = event_target:shoal_fish_store } 
+			}
+			silver = {
+				multiply_variable = { which = IR_trade_value value = 6 } 
+				set_variable = { which = IR_price_mod which = event_target:silver_store } 
+			}
+			softwood = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:softwood_store } 
+			}
+			stone = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:stone_store } 
+			}
+			tomatoes = {
 				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:glass_store } 
+				set_variable = { which = IR_price_mod which = event_target:tomatoes_store } 
+			}
+			tin = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:tin_store } 
+			}
+			tropical_wood = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:tropical_wood_store } 
+			}
+			whales = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:whales_store } 
+			}
+			wool = {
+				multiply_variable = { which = IR_trade_value value = 1.5 } 
+				set_variable = { which = IR_price_mod which = event_target:wool_store } 
+			}
+			#
+			apiculture = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:apiculture_store } 
+			}
+			alum = {
+				multiply_variable = { which = IR_trade_value value = 4 } 
+				set_variable = { which = IR_price_mod which = event_target:alum_store } 
+			}
+			cloves = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:cloves_store } 
+			}
+			black_pepper = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:black_pepper_store } 
+			}
+			cocoa = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:cocoa_store } 
+			}
+			carpet = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:carpet_store } 
+			}
+			cassava = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:cassava_store } 
+			}
+			cinnamon = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:cinnamon_store } 
+			}
+			coffee = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:coffee_store } 
+			}
+			cotton = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:cotton_store } 
+			}
+			dairy = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:dairy_store } 
+			}
+			dyes = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:dyes_store } 
 			}
 			gems = {
-				multiply_variable = { which = IR_trade_value value = 4 } 
+				multiply_variable = { which = IR_trade_value value = 3 } 
 				set_variable = { which = IR_price_mod which = event_target:gems_store } 
+			}
+			hemp = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:hemp_store } 
+			}
+			iron = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:iron_store } 
+			}
+			lead = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:lead_store } 
+			}
+			leather = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:leather_store } 
+			}
+			marble = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:marble_store } 
+			}
+			mollusk = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:mollusk_store } 
+			}
+			mercury = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:mercury_store } 
+			}
+			chili_peppers = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:chili_peppers_store } 
+			}
+			spices = {
+				multiply_variable = { which = IR_trade_value value = 4 } 
+				set_variable = { which = IR_price_mod which = event_target:spices_store } 
+			}
+			olives = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:olives_store } 
+			}
+			opium = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:opium_store } 
 			}
 			paper = {
 				multiply_variable = { which = IR_trade_value value = 2.5 } 
 				set_variable = { which = IR_price_mod which = event_target:paper_store } 
 			}
-			bt_trade_good_beer = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:bt_trade_good_beer_store } 
-			}			
-			bt_trade_good_books = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:bt_trade_good_books_store } 
+			niter = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:niter_store } 
 			}
-			ir_rice = {
-				multiply_variable = { which = IR_trade_value value = 1  } 
-				set_variable = { which = IR_price_mod which = event_target:ir_rice_store } 
+			saffron = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:saffron_store } 
 			}
-			ir_whales = {
+			silk = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:silk_store } 
+			}
+			slaves = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:slaves_store } 
+			}
+			legumes = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:legumes_store } 
+			}
+			sugar = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:sugar_store } 
+			}
+			sulfur = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:sulfur_store } 
+			}
+			tea = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:tea_store } 
+			}
+			tobacco = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:tobacco_store } 
+			}
+			vanilla = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:vanilla_store } 
+			}
+			zinc = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:zinc_store } 
+			}
+			#
+			artifices = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:artifices_store } 
+			}
+			beer = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:beer_store } 
+			}
+			bricks = {
+				multiply_variable = { which = IR_trade_value value = 2 } 
+				set_variable = { which = IR_price_mod which = event_target:bricks_store } 
+			}
+			books = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:books_store } 
+			}
+			brass = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:brass_store } 
+			}
+			bronze = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:bronze_store } 
+			}
+			confectionary = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:confectionary_store } 
+			}
+			fertilizer = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:fertilizer_store } 
+			}
+			furniture = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:furniture_store } 
+			}
+			glass = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:glass_store } 
+			}
+			gunpowder = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:gunpowder_store } 
+			}
+			metalwork = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:metalwork_store } 
+			}
+			jewelry = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:jewelry_store } 
+			}
+			liquor = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:liquor_store } 
+			}
+			naval_supplies = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:naval_supplies_store } 
+			}
+			chinaware = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:chinaware_store } 
+			}
+			resin = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:resin_store } 
+			}
+			rubber = {
+				multiply_variable = { which = IR_trade_value value = 2.5 } 
+				set_variable = { which = IR_price_mod which = event_target:rubber_store } 
+			}
+			rum = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:rum_store } 
+			}
+			steel = {
 				multiply_variable = { which = IR_trade_value value = 4 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_whales_store } 
+				set_variable = { which = IR_price_mod which = event_target:steel_store } 
 			}
-			ir_silver = {
-				multiply_variable = { which = IR_trade_value value = 6 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_silver_store } 
-			}
-			ir_potatoes = {
-				multiply_variable = { which = IR_trade_value value = 1.5 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_potatoes_store } 
-			}
-			ir_maize = {
-				multiply_variable = { which = IR_trade_value value = 1.5 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_maize_store } 
-			}
-			ir_millet = {
-				multiply_variable = { which = IR_trade_value value = 1  } 
-				set_variable = { which = IR_price_mod which = event_target:ir_millet_store } 
-			}
-			ir_apiculture = {
-				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_apiculture_store } 
-			}
-			ir_fruit = {
-				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_fruit_store } 
-			}
-			ir_olives = {
+			cloth = {
 				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_olives_store } 
+				set_variable = { which = IR_price_mod which = event_target:cloth_store } 
 			}
-			ir_dates = {
-				multiply_variable = { which = IR_trade_value value = 2 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_dates_store } 
+			wine = {
+				multiply_variable = { which = IR_trade_value value = 3 } 
+				set_variable = { which = IR_price_mod which = event_target:wine_store } 
 			}
-			ir_marble = {
-				multiply_variable = { which = IR_trade_value value = 2.5 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_marble_store } 
+			#
+			aluminum = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:aluminum_store } 
 			}
-			ir_softwood = {
-				multiply_variable = { which = IR_trade_value value = 1.5 } 
-				set_variable = { which = IR_price_mod which = event_target:ir_softwood_store } 
+			chemicals = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:chemicals_store } 
 			}
+			concrete = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:concrete_store } 
+			}
+			explosives = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:explosives_store } 
+			}
+			machines = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:machines_store } 
+			}
+			machine_parts = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:machine_parts_store } 
+			}
+			medicine = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:medicine_store } 
+			}
+			munitions = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:munitions_store } 
+			}
+			perfume = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:perfume_store } 
+			}
+			preserves = {
+				multiply_variable = { which = IR_trade_value value = 5 } 
+				set_variable = { which = IR_price_mod which = event_target:preserves_store } 
+			}
+			#
+			chromite = {
+				multiply_variable = { which = IR_trade_value value = 8 } 
+				set_variable = { which = IR_price_mod which = event_target:chromite_store } 
+			}
+			coal = {
+				multiply_variable = { which = IR_trade_value value = 8 } 
+				set_variable = { which = IR_price_mod which = event_target:coal_store } 
+			}
+			phosphate = {
+				multiply_variable = { which = IR_trade_value value = 8 } 
+				set_variable = { which = IR_price_mod which = event_target:phosphate_store } 
+			}
+			#unknown = { 
+			#	base_price = 0
+			#}
 		}
 		
 		multiply_variable = {
@@ -977,7 +1242,7 @@ IR_dev_calc = {
 			metropolis = { 
 		#		event_target:glass_store = { change_variable = { which = IR_demand_value value = PREV } }		
 				if = {
-					limit = { NOT = { base_manpower = 30 } }
+					limit = { NOT = { base_manpower = 50 } }
 					remove_building = metropolis
 					add_building = city
 				}
@@ -985,7 +1250,7 @@ IR_dev_calc = {
 			city = {
 		#		event_target:glass_store = { change_variable = { which = IR_demand_value value = PREV } }
 				if = {
-					limit = { NOT = { base_manpower = 20 } }
+					limit = { NOT = { base_manpower = 25 } }
 					remove_building = city
 					add_building = town
 				}
@@ -1009,160 +1274,11 @@ IR_dev_calc = {
 		
 		#trigger_switch = {
 		#	on_trigger = trade_goods
-			#grain = {
-			#	event_target:grain_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	
-			#}
 			#wine = {
 			#	event_target:wine_store = { change_variable = { which = IR_goods_size which = PREV } }
 			#	divide_variable = { which = IR_demand_value value = 2 }
 			#	event_target:glass_store = { change_variable = { which = IR_demand_value which = PREV } }
 			#}
-			#wool = {
-			#	event_target:wool_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#cloth = {
-			#	event_target:cloth_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	multiply_variable = { which = IR_demand_value value = 2 }
-			#	event_target:wool_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#fish = {
-			#	event_target:fish_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#fur = {
-			#	event_target:fur_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#salt = {
-			#	event_target:salt_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#naval_supplies = {
-			#	event_target:naval_supplies_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:softwood_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#	event_target:hardwood_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:salt_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#copper = {
-			#	event_target:copper_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#iron = {
-			#	event_target:iron_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#slaves = {
-			#	event_target:slaves_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ivory = {
-			#	event_target:ivory_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#tea = {
-			#	event_target:tea_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#chinaware = {
-			#	event_target:porcelain_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#spices = {
-			#	event_target:spices_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#coffee = {
-			#	event_target:coffee_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:slaves_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#cotton = {
-			#	event_target:cotton_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:slaves_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#sugar = {
-			#	event_target:sugar_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:slaves_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#tobacco = {
-			#	event_target:tobacco_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:slaves_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#cocoa = {
-			#	event_target:cocoa_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	divide_variable = { which = IR_demand_value value = 2 }
-			#	event_target:slaves_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#silk = {
-			#	event_target:silk_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#tropical_wood = {
-			#	event_target:hardwood_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#dyes = {
-			#	event_target:dyes_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#livestock = {
-			#	event_target:livestock_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#incense = {
-			#	event_target:incense_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#glass = {
-			#	event_target:glass_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	
-			#}
-			#gems = {
-			#	event_target:gems_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#paper = {
-			#	event_target:paper_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	multiply_variable = { which = IR_demand_value value = 2 }
-			#	event_target:softwood_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#bt_trade_good_beer = {
-			#	event_target:bt_trade_good_beer_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}			
-			#bt_trade_good_books = {
-			#	event_target:bt_trade_good_books_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#	multiply_variable = { which = IR_demand_value value = 2 }
-			#	event_target:paper_store = { change_variable = { which = IR_demand_value which = PREV } }
-			#}
-			#ir_rice = {
-			#	event_target:ir_rice_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_whales = {
-			#	event_target:ir_whales_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_silver = {
-			#	event_target:ir_silver_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_potatoes = {
-			#	event_target:ir_potato_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_maize = {
-			#	event_target:ir_maize_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_millet = {
-			#	event_target:ir_millet_store = { change_variable = { which = IR_goods_size which = PREV } } 
-			#}
-			#ir_apiculture = {
-			#	event_target:ir_apiculture_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_fruit = {
-			#	event_target:ir_fruit_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_olives = {
-			#	event_target:ir_olives_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_dates = {
-			#	event_target:ir_dates_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_marble = {
-			#	event_target:ir_marble_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#ir_softwood = {
-			#	event_target:ir_softwood_store = { change_variable = { which = IR_goods_size which = PREV } }
-			#}
-			#all
-			#set_variable = { which = IR_demand_value which = IR_prov_pop }
-			#event_target:market_food = { change_variable = { which = IR_demand_value which = PREV } }
 		#}
 
 		#Famine calc

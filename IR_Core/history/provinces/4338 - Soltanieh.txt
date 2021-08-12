@@ -2,10 +2,10 @@
 
 owner = TIM
 controller = TIM
-culture = azerbaijani
+culture = persian
 religion = shiite
 capital = "Soltanieh"
-trade_goods = ir_fruit #Grapes and Fruits
+trade_goods = fruit #Grapes and Fruits
 hre = no
 base_tax = 3
 base_production = 3

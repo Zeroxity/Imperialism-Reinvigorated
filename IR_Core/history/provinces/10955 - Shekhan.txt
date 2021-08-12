@@ -2,7 +2,7 @@
 owner = IRQ
 controller = IRQ
 culture = kurdish
-religion = sunni		#Yazidi
+religion = yazidi		
 capital = "Ain Sifni"
 trade_goods = cloth
 hre = no

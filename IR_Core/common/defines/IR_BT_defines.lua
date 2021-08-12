@@ -205,7 +205,7 @@ NDefines.NEconomy.PIRATES_MONOPOLY_BONUS = -0.5
  --Necessary
 --NDefines.NEconomy.ALLOW_DESTROY_MANUFACTORY = 1 -- was 0 needed to disable 
 NDefines.NEconomy.TRADE_WIND_STRENGTH = 0.5						-- _EDEF_TRADE_WIND_STRENGTH_
-NDefines.NEconomy.TRADED_FRACTION_FOR_BONUS = 0.05				-- _EDEF_TRADED_FRACTION_FOR_BONUS_
+NDefines.NEconomy.TRADED_FRACTION_FOR_BONUS = 0.1				-- _EDEF_TRADED_FRACTION_FOR_BONUS_
 
 NDefines.NEconomy.MISSIONARY_MAINTENANCE_FACTOR = 0.0			-- How much a missionary costs in itself
 NDefines.NEconomy.MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 0.5	-- How much this is ncreased from development
@@ -322,7 +322,7 @@ NDefines.NGraphics.CITY_SPRAWL_AMOUNT = 1.0			-- from 3p0
 --NDefines.NGraphics.CAPITAL_INDICATOR_HEIGHT_SCALE = 140.0 -- from 140.0 - CHANGES SCALE OF CAPITAL INDICATOR
 
  --NEngine 
-NDefines.NEngine.EVENT_PROCESS_OFFSET = 30				-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
+NDefines.NEngine.EVENT_PROCESS_OFFSET = 90				-- Events are checked every X day per character or province (1 is ideal, but CPU heavy)
 
   --NReligion changes
 NDefines.NReligion.CONSECRATE_PATRIARCH_THRESHOLD = 60			-- from 30

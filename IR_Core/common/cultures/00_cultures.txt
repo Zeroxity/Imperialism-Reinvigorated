@@ -1729,6 +1729,32 @@ iberian	= {
 			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
 		}
 	}
+	acoriano = {
+		dynasty_names = {
+			"de Pereira" "de Oliveira" "de Cardoso" "de Pimentel" "de Pinto" "de Rodrigues" "de Mendes"
+			"de Nunes" "de Silveira" "de Bettencourt" "de Álvares" "de Henriques" "de Cardozo" "de Teixeira"
+			"de Devos" "de Prins" "de Mendonça" "de Lapointe" "de Watremez" "de Daillencourt" "de Trussardi" 
+			"de Bolsonaro" "de Dall'Agnol"
+		}
+		male_names = {
+			João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis
+			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco
+			Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau
+			Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
+			Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão
+			Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre
+			Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo
+			Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio
+			Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente
+			Vincent Pons
+		}
+		female_names = {
+			Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
+			Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda
+			Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria
+			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+		}
+	}
 	#spanish derived
 	mexican = {
 		primary = MEX
@@ -2395,7 +2421,7 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 	hejazi_culture = {
 		primary = HED
 		dynasty_names = {
-			Khayratid "Al Abu Risha" Hawashim Husaynid Makramid Suleymanid "al-Mughaydi" Hasanid "Banu Mughayd" "Rufayda"
+			Khayratid "Al Abu Risha" Hawashim Husaynid Makramid Suleymanid "al-Mughaydi" Hasanid "Banu Mughayd" "Rufayda" "Al Thaqif" "Bani Malik" Shalawa Hadhil "B'l Warn" Juhadalah Sulaim Quraish Sharifi "Bani Sulaiman" Raqagha "Al Harb" Juhaina Billi "Bani Atiyah" Mawahib Huwaitat "Bani Wahab" Hutaym Sakhr Sherarat Fuqara Otaibah Ghamid
 		}
 		male_names = {
 			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
@@ -2650,7 +2676,7 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 		primary = NAJ
 		dynasty_names = {
 			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
-			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
+			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim" "al-Dawasir" "al-Abida" "al-Janab" "al-Buqum" "al-Qahtan" "al-Mu'awiya" "al-Subay" "al-Otaibah" Suhul Ajman Bargha Subai "Bani Lam" Mutair Mirrah Jabir Bishr Manasir "Bani Hajir" "Bani Khalid" Awazim "al-Qassim" "Bani Abdallah" Saiyah "Bani Harb" "al-Harb" Shammar Abda Sulaiman "Wulad Sulaiman" "Bani Rashid" "Bani Wahab" Mawahib Hutaym "Wulad Ali" Anaizah Amarat Ruwalla Huwaitat Sirhan Dhafir Dahamsha "Bani Sakhr" Dulaim Awazim Hawazim Fedan "al-Muntafiq" "Bani Tamim" "al-Majali" "al-Thani" "al-Khater" "Al ash-Sheikh" "al-Khalifa" "Bani Utbah" "Al Ali" Rashid
 		}
 		male_names = {
 			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
@@ -3203,6 +3229,22 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
 		}
 	}
+	
+	#IR MOVED CULTURE
+	khorasani = { # ARABIC VERSION
+		#primary = KHO
+		male_names = {
+			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman 'Alî 'Abdallâh Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Malîk Mirza Muhammad Qasim Rashîd Sulayman Tarîq 'Umar Usama Yasir Yusuf Zaid Zîyad
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
+		}
+	}
 }
 
 georgian = {
@@ -3532,8 +3574,51 @@ turkish_g = {
 			Handan Alime Kösem Hüma
 		}
 	}
+	pomak = {
+		male_names = {
+			Mehmet Mustafa Murat Ahmet Selim Osman Mahmut Süleyman Bayezid Orhan Abdulaziz Abdülhamit Ibrahim
+			Abdülmecit Abdullah Cem Cihangir Alaattin Isa Musa Ömer Seyfettin Yakup Yusuf Giyasettin Numan
+			Ali Davut Hasan Hüseyin Ishak Kamer Kasim Korkut Emin Iskender Halil Sait Hamit Ertugrul Izzettin
+			Nizamettin Sinan Ferhat Salih Ismail Cüneyt Bahadir Hizir Harun Cemal Inal Celalettin Ilyas
+			Dursun Ramazan Recep Abdulrahman Hayrettin
+			Çagri Çaka Afsin Ahmet Aksonqor Alaeddin Ali Alkan "Alp Arslan" "Alp Yurek" Alptigin Artuk Ayaz
+			Aydin Aydogan Aydogdu Aytekin Böru Bulend Bahadir Balaban Basbuga Batuhan Baturay Baybars
+			Bayezid Baytas Belek Berkan Berkiyaruk Bozan Bugra Burak Cuneyd Dundar Danismend Davud David
+			Demir Dogan Dogukan Dukak Erdem Ertan Ertekin Ertugrul Gunduz Hasan Hasan Hizir Ibrahim Ilgazi
+			Inal Iskender Alexander Kurboga Kaikaus Kaikhusraw Kaiqobad Kara Karatay Kasim Kaya Kaytun
+			Kemal Kiliç Korkut Kutalmis Kutay Kutlug Mursel Mahmud Mehmed Meliksah Mengucek Mesud Murad
+			Mustafa Orhan Osman Porsuk Rustem Ramazan Ridvan Söbuk Sökmen Sönmez Suleyman Saim Saltuk
+			Saruca Savtekin Savur Sehinsah Selçuk Selim Sencer Sinan Tanrivermis Tekin Timurtas Togay
+			Togtekin Toktamis Tolun Toruntay Tugrul Tunga Turgut Turhan Tutus Uluç Umur Yakut Yaman Yinal
+			Yunus
+		}
+		female_names = {
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Aslihan Ayasun Ayla Ayse Ayten Azize Bahar Banu
+			Bozçin Canan Ceylan Dunya Dilber Dilek Emine Esin Fatma Firuze Gulçiçek Gulay Gulbahar Gulfem
+			Gulsum Gumus Gunduz Gundes Gunes Hatice Hayat Huriye Ilkay Ilknur Ipek Ipekel Irge Karacik Lale
+			Leyla Mala Mansure Merve Mutlu Nagihan Nergis Neslihan Nilufer Nur Peksen Terkhen Samur Sarica
+			Sati Sehnaz Serap Serife Sevilay Sevindik Sibel Sibylla Sirin Sirma Songul Sumru Tekçe Tura
+			Umay Usunbike Vahide Yasar Yeldem Yildiz Zehra Zuhal Hatice Safiye Zeynep Hürrem Mihrimah Nurbanu
+			Handan Alime Kösem Hüma
+		}
+	}
 	alevi = {
 		primary = AL1
+	}
+	#IR Culture
+	horasanli = { # TURKIC VERSION
+		#primary = KHO
+		male_names = {
+			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman 'Alî 'Abdallâh Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Malîk Mirza Muhammad Qasim Rashîd Sulayman Tarîq 'Umar Usama Yasir Yusuf Zaid Zîyad
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
+		}
 	}
 	salar = {
 	}
@@ -6435,7 +6520,7 @@ tartar	= {
 		}
 	}
 	kumyk = {
-		primary = TAK
+		primary = T4R
 		dynasty_names = {
 			"Ulagan Temur" "Bora Chinua" "Suren Unegen" "Qara Erdene"
 			"Delger Cheren" Chaganchar Qorchigene Burilgidai Qadantai
@@ -6552,9 +6637,6 @@ east_iranian = {	#Scythian? Saka? Zend? Idk
 	yaghnobi = {
 	}
 	#IR Culture
-	munji = {
-	}
-	#IR Culture
 	ormuri = {
 	}
 	alan = {	#Ossetian
@@ -6582,6 +6664,21 @@ east_iranian = {	#Scythian? Saka? Zend? Idk
 		}
 		dynasty_names = {
 			Ezdon Badilata Gaguata Tsargasata Kusagonta Tsarazonta Aguzata Tsakhilta Kusagonta Sidamonta Naifonata Tembolata Ualasykh Dadygkata Kalogkata Baziata
+		}
+	}
+	#IR Culture
+	xorasani = { # EAST IRANIC VERSION
+		primary = KHO
+		male_names = {
+			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman 'Alî 'Abdallâh Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Malîk Mirza Muhammad Qasim Rashîd Sulayman Tarîq 'Umar Usama Yasir Yusuf Zaid Zîyad
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
 		}
 	}
 	dynasty_names = {
@@ -8057,6 +8154,9 @@ hindusthani = {
 			"Kota" "Sibaia" "Tara Devi"
 		}
 	}
+	#IR Culture
+	nuri = {
+	}
 	male_names = {
 		Achalraj Achalraja Achalraja Achalraja Adhandev Adityadeva Ajmal Alsi Amir Anangpal Anangpala
 		Anangpala Anangpala Anupapala Anupapala
@@ -8655,25 +8755,248 @@ mande = {
 	}
 }
 
-pacific = { #Aboriginal
-	graphical_culture = asiangfx
-
-	aboriginal = {
+aboriginal_australian = {
+	graphical_culture = aboriginalgfx
+	second_graphical_culture = africangfx
+	
+	aboriginal = { #(Kuric) Eora/East Coast
+		primary = EOR
 		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
 			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+			
+			Colebee Iluka Killara Merriman Warragul Warrin Yannthan Yarramundi
 		}
 		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
 			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+			
+			Adina Alinta Alira Arika Birindabella Cardinia Inala Jindalee Kareela Killara Lowanna Merri Pemau Waratah
 		}
 	}
-	
-	####  ABORIGINAL GROUP REWORK
-	 nyungar = { # SW WA
+	yura = { #South Australia
+		primary = KAU
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+			
+			Irabinna Kurraki Warriya "Witto Witto" Daku
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+			
+			Karro Kudnarto Manmarra Medika Tarni Thoomi
+		}
+	}
+	paman = { #Capricornia
+		primary = AWN
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+		}
+	}
+	gunwinyguan = { #Top End
+		primary = LAR
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+			
+			Adaliya Banalandju Jannali
+		}
+	}
+	palawa = { #Tasmania
+		primary = PLW
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+			
+			Mangana Nicermenic
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+			
+			Lenah Lutana Tanganutura Trugernanner
+		}
+	}
+	kulin = { #Melbourne
+		primary = WRU
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+		}
+	}
+	gamilaraay = { #interior
+		primary = GMI
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+		}
+	}
+	nyoongah = { #Perth
+		primary = NOO
+		male_names = {
+			#pre-mandala names
+			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarrah 
+			Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+			
+			#shared names
+			Babawar Bambam Binyan Birrinbirrin Bunji Cambul Darana Dayindi Djarrjuntjun Dural Gabii Gambuu Marrii
+			Minygululu Nadi Nullah Nyakul Nyukuti Omeo Ridjimiraril Tidam Toba Umbarra Waku Watorea Yarran Yeeralparil
+			Yibaay Yileen
+			
+			Beangagarrie Jarli Jarrah Mawukura Mirri Mudrooroo
+		}
+		female_names = {
+			#pre-mandala names
+			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri 
+			Ekala Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora 
+			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono 
+			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
+			
+			#shared names
+			Alkawari Allira Angoona Anmari Babawar Bando Binda Binmarray Biralee Bunji Chumbuli Colba Darana
+			Illarah Karri Kirrili Kyeema Lilardia Maroochy Mirrin Munandjarra Myaree Naata Ngoia Ningali Nowalingu
+			Nymbulda Nyurapayia Oodgeroo Papalya Parara Patiseba Payu Pirrmangka Takariya Talei Tallara Tatali Tjunkiya
+			Truganina Truganini Truganner Walangkura Watorea Wintjiya Yakari Yalamay Yinarupa Yindi
+			
+			Alkina Bindi Inyuwa Jedda Makinti Mirri Wawiriya
+		}
+	}
+	#####
+	#Imperialism Reinvigorated
+	#####
+	nyungar = { # SW WA
 		male_names = {
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
 			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
@@ -8812,35 +9135,6 @@ pacific = { #Aboriginal
 			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
 		}
 	 }
-	 
-	 yura = {
-		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
-			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
-		}
-		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
-			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
-		}
-	 }
-	 
-	 kulin = {
-		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
-			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
-		}
-		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
-			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
-		}
-	 }
-	 
 	 gaanay = {
 		male_names = {
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
@@ -8926,20 +9220,6 @@ pacific = { #Aboriginal
 	 }
 	 
 	 miriwung = {
-		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
-			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
-		}
-		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
-			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
-		}
-	 }
-	 
-	 gunwinyguan = {
 		male_names = {
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
 			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
@@ -9121,34 +9401,6 @@ pacific = { #Aboriginal
 		}
 	 }
 	 
-	 palawa = { #Tasmania
-		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
-			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
-		}
-		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
-			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
-		}
-	 }
-	 
-	 paman = { #N Queensland
-		male_names = {
-			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
-			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
-			Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
-		}
-		female_names = {
-			Akala Alba Alinga Alkina Alkira Allirea Allora Allunga Amarina Anka Apanie Coorah Coreen Corowa Darri Eerin
-			Ekala Elanora Ellin Elouera Gedala Gheera Kala Kamballa Karri Karuah Katyin Kayle Kiah Kimba Kirra Kolora
-			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
-			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
-		}
-	 }
-	 
 	 dyirbalic = { # NE Queensland
 		male_names = {
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
@@ -9190,7 +9442,7 @@ pacific = { #Aboriginal
 			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
 		}
 	 }
-	 meriam_mir = { # E Torres
+	meriam_mir = { # E Torres
 		male_names = {
 			Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah
 			Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri
@@ -9202,11 +9454,14 @@ pacific = { #Aboriginal
 			Koorine Maiya Mallana Manilla Manya Marinna Marlee Mayra Meera Merinda Merindah Neridah Niley Noora Olba Olono
 			Oola Orana Orani Pangari Pengana Pierah Weema Wihelma Wilga Wilhemine Willa Wilmette Wyla Wyuna Yani Yara Yaralla
 		}
-	 }
-
-	dynasty_names = { #NEED SERIOUS WORK
-		Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
 	}
+	dynasty_names = {
+		Barak Bennelong Billibellary Calyute Derrimut Dundalli Jackey Jandamarra Lanne Mannalargenna Mokare Mullagh Musquito Pemulwuy
+		Tullamareena Wonga Yagan Wylle Napaljarri Tjakamarra Tjapaltjarri Gurruwiwi Nungurrayi Mununggurr Namok Milyika Ginibi Wagan
+	}
+	#dynasty_names = { #NEED SERIOUS WORK
+	#		Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	#}
 }
 
 tonkawan = {#BTARG
@@ -9795,7 +10050,19 @@ dravidian = {
 }
 
 melanesian = {
-	graphical_culture = africangfx
+	graphical_culture = polynesiangfx
+	melanesian = {
+		male_names = {
+			Adi Aisake Aminiasi Apenisa Apisalome Berenado Cakobau Caucau Emori Epeli Epenisa Esekia Ilikimi Ilisoni Iloilo Iloilovatu 
+			Isikeli Isimeli Jesoni Jo Joeli Jone Jope Josateki Josefa Josevata Jovesa Kai Kamisese Karavadi Kelemedi Lala Lasarusa Lemeki
+			Levani Kevenei Leveni Ma'afu Maciu Manasa Mara Marau Marika Naulivou Ovini Penaia Peniamini Petero Poasa Sakeasi Sakiusa 
+			Samisoni Savenaca Seru Sione Sirilo Sitiveni Solomone Tamiela Tanna Timi Timoci Tomasi Tui Voreqe Waisake Waisale Wije Yasi
+		}
+		female_names = {
+			Akeneta Aliti Elenoa Ema Emele Kai Kalahira Kalara Kasanita Kepa Kesaia Leba Lelea Lilieta Loloma Mereani Miliani Raijieli 
+			Salanieta Salaqawa Selai Sereana Tanna Tarlae Ulita Yasi
+		}
+	}
 	talasean = {
 		primary = GMA
 		dynasty_names = {
@@ -9810,7 +10077,7 @@ melanesian = {
 		}
 	}
 	malagan  = {
-		primary = MAA
+		primary = M4A
 		dynasty_names = {
 			Tigak Tungag Nalik Laxudumau Kara Tiang Madara Tabar Lihir Notsi Barok Lavatbura Lamusong Tomoip Mil Tangga Sursurunga Konomala Label Bilur Simberi Tatau Datava Mapua Wang Tandis Lossu
 			Konos Kimadan Lelet Dalom Lemeris Bulu Karu Komalu Komalapuo Daun Messi Ugana Lamau Patlanga Panaras Enang Nonovaul Panapai Kaselok Bagatare Lokono Ngavalus Paruai Lemakot Panamana
@@ -11216,7 +11483,7 @@ sudanese = {
 	nubian = {
 		primary = NUB
 	}
-	maa = {
+	M4A = {
 		primary = MSX
 	}
 	#BtPLegacy Culture
@@ -14198,9 +14465,48 @@ karluk = {
 			"Layla" "Sakina" "Sharifa"
 		}
 	}
+	qongrat = {
+		primary = QGT
+		male_names = {
+			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr
+			Abu'l-Mansur Agatay Alim Anusha Arab Muhammad Avanesh Bahadur Bakht Baqi Muhammad Budjuga Bureke
+			Djuchi Dost Habash Hadji Hadji Muhammad Hassan Quli Haydar Imam Quli Ilbars Irdana Isfandiyar Isim
+			Janibek Kal Khudayar Khudaydad Kochkunju Muhammad Muhammad Amin Muhammad Hakim Muhammad Rahim Nadir
+			Muhammad Narbuta Navruz Ahmad Niyaz Pir Muhammad Sanjar Sevinch Shadi Shahmurad Shahrukh Shaykh
+			Subhan Quli Sufyan Suleyman Tahir Timur Ubaydulla Umar Vali Vali Muhammad Yadgar Daniyal Haidar
+			Iskandar
+		}
+		female_names = {
+			Temalen Birte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene
+		}
+	}
 	chagatai = {
+		male_names = {
+			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr
+			Abu'l-Mansur Agatay Alim Anusha Arab Muhammad Avanesh Bahadur Bakht Baqi Muhammad Budjuga Bureke
+			Djuchi Dost Habash Hadji Hadji Muhammad Hassan Quli Haydar Imam Quli Ilbars Irdana Isfandiyar Isim
+			Janibek Kal Khudayar Khudaydad Kochkunju Muhammad Muhammad Amin Muhammad Hakim Muhammad Rahim Nadir
+			Muhammad Narbuta Navruz Ahmad Niyaz Pir Muhammad Sanjar Sevinch Shadi Shahmurad Shahrukh Shaykh
+			Subhan Quli Sufyan Suleyman Tahir Timur Ubaydulla Umar Vali Vali Muhammad Yadgar Daniyal Haidar
+			Iskandar
+		}
+		female_names = {
+			Temalen Birte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene
+		}
 	}
 	moghul = {
+		male_names = {
+			Abdul-Aziz Abdul-Karim Abdul-Mumin Abdul-Rahim Abdulla Abu Said Abu'l-Feiz Abu'l-Ghazi Abu'l-Khayr
+			Abu'l-Mansur Agatay Alim Anusha Arab Muhammad Avanesh Bahadur Bakht Baqi Muhammad Budjuga Bureke
+			Djuchi Dost Habash Hadji Hadji Muhammad Hassan Quli Haydar Imam Quli Ilbars Irdana Isfandiyar Isim
+			Janibek Kal Khudayar Khudaydad Kochkunju Muhammad Muhammad Amin Muhammad Hakim Muhammad Rahim Nadir
+			Muhammad Narbuta Navruz Ahmad Niyaz Pir Muhammad Sanjar Sevinch Shadi Shahmurad Shahrukh Shaykh
+			Subhan Quli Sufyan Suleyman Tahir Timur Ubaydulla Umar Vali Vali Muhammad Yadgar Daniyal Haidar
+			Iskandar
+		}
+		female_names = {
+			Temalen Birte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene
+		}
 	}
 	aynu = {
 	}
@@ -14396,8 +14702,22 @@ mosan_culture_group = {
 
 illyrian = {
 	graphical_culture = greekgfx
-	albanian = {
+	albanian = { #gheg
 		primary = ALB
+		male_names = {
+			Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik
+			Dardan Dhurim Dritëro Elidon Erjon Fatmir Flamur Florin Hekuran Ilir Ismail Klodian Luigj Milaim
+			Pashko Pëllumb Përparim Pjetër Rrok Shpëtim Tahir Viktor Xhevat Ylli Zenel Halil Ali Mustafa Qemal
+			Mehmet Ramiz Edi Demaci Edon Dukagjin Haxhi Lishëndri Mensur Kreshnik Rahman Nxhiku Riza Rexhep
+			Sulejman Selim Sadik Bujar Nikolla Enver Ramadan
+		}
+		female_names = {
+			Gjylo Afërdita Blerta Bora Dafina Dardana Era Fatmire Flutura Gentiana Jehona Lindita Lule Luljeta Pranvera Shpresa
+			Shqipe Teuta Venera Vera Vesa Yllka
+		}
+	}
+	tosk = {
+		#primary = ALB
 		male_names = {
 			Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik
 			Dardan Dhurim Dritëro Elidon Erjon Fatmir Flamur Florin Hekuran Ilir Ismail Klodian Luigj Milaim
@@ -14517,7 +14837,7 @@ wakashan_group = {
 	graphical_culture = northamericagfx
 
 	wakashan = {			#Likely an Eskaleut language in origin, though evidence suggests that even if so, these peoples split off a long time ago (1000s of years?)
-		primary = NOO
+		primary = NTK
 		male_names = {
 			Nauja Nirliq Nuniq Nuvuk Oki Pamiuq Patuktuq Pauloosie Petuwaq Pimniq Piqqaluyungmik Pittiulak Pukajaak Qajak
 			Qammutiq Qamut Qannik Qaumaniq Qausiqtuk Qimmiabruk Qimmiq Qulitalik Sauri Sighna  Siluk Sivoy Sivuugun
@@ -16453,10 +16773,6 @@ altaic = {		#Mongolic
 	}
 	shirongolic = {
 	}
-	qongrat = {
-	}
-	hazara = {
-	}
 	naiman = {
 	}
 	yugur = {
@@ -18168,20 +18484,6 @@ iranian	= {		#West Iranian
 			Šîwen Atiya
 		}
 	}
-	khorasani = {
-		primary = KHO
-		male_names = {
-			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd
-			'Abd al-Rahman 'Alî 'Abdallâh Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
-			Karim Khalil Malîk Mirza Muhammad Qasim Rashîd Sulayman Tarîq 'Umar Usama Yasir Yusuf Zaid Zîyad
-			Zulqifar al-Karim Jamaal
-		}
-		female_names = {
-			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
-			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
-		}
-	}
 	baluchi = {
 		primary = BAL
 		dynasty_names = {
@@ -18245,7 +18547,7 @@ iranian	= {		#West Iranian
 			Šêlaz Šîlan Šînî Šîwen
 		}
 	}
-	afghani= {		#Dari
+	afghani = {		#Pashtun
 		primary = AFG
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman
@@ -18400,12 +18702,6 @@ iranian	= {		#West Iranian
 	daylami = {
 	}
 	#IR Culture
-	gorani = {
-		dynasty_names = {
-			Bajelani Hawrami Sarli Shabaki
-		}
-	}
-	#IR Culture
 	semnani = {
 	}
 	#IR Culture
@@ -18523,8 +18819,11 @@ iranian	= {		#West Iranian
 			Šîwen Atiya
 		}
 	}
-	#IR Culture
 	tajik = {
+	}
+	hazara = {
+	}
+	aimaq = { 
 	}
 	dynasty_names = {
 		Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
@@ -18563,8 +18862,62 @@ malagasy = {
 	}
 }
 
-polynesian = {
-	graphical_culture = southamericagfx
+
+pacific = {
+	graphical_culture = polynesiangfx
+	second_graphical_culture = northamericagfx
+
+	papuan = {
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+	}
+	maori = {
+		male_names = {
+			Aata Ahika Akahata Amahau Anewa Apera Aperahama Arapeta Ari Atama Atawhai Etera Hahona Haimona Harata Hau Hehu 
+			Heketoro Henare Hohepa Huatare Hunapo Hunu Iarere Iehohapata Ieni Ietepere Ietoro Ihaia Ihaka Ihu Ikaroa Iorama
+			Iorangi Iotama Iraia Irirangi Iwi Kahurangi Kai Kaihautu Kamaka Kauri Koraka Mahaka Manaaki Manaia Manawa Matiu 
+			Moana Nikau Purta Puta Rangi Rapata Rawiri Rongo Ropata Ruru Tai Taika Tama Tane Tanemahuta Tangaroa Tawera Tawhiri 
+			Tayn Te-Ariki Tia Tui
+		}
+		female_names = {
+			Aaria Amaia Ana Anahera Aroha Ataahua Awhina Hana Kahurangi Kaia Kara Kora Maia Manaia Manawa Moana Rui Te-Ao Te-Aroha Tia Tui
+		}
+	}
+	polynesian = {
+		dynasty_names = {
+			Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+			Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+			Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+			Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna 
+		}
+		female_names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Moanna Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+		male_names = {
+			Akamu Aloha Alohilani Analu Aolani Aulani Aulii Feleti Inoke Iolani Ipo Iwalani Kai Kaili Kaipo Kalani Kale Kalei Kapena
+			Kapono Keahi Kealii Keani Keanu Keiki Kelii Keon Keoni Kimo Konala Liko Loe Lulani Makaio Makani Malo Mauli Mele Moke
+			Nalani Oke Palani Pekelo
+		}
+	}
+	dynasty_names = {
+		Balla Bulu Lompo Sallo Karaeng Bambang Cipuru Doe Iyo Tena Tabe Apa Lakeko Battu Keko
+	}
 	tongic = {
 		primary = TGA
 		dynasty_names = {
@@ -18681,7 +19034,7 @@ polynesian = {
 		}
 	}
 	#Beyond Typus Culture
-	maori_culture = {
+	maori_culture = { #MERGE WITH MAORI
 		primary = AO7
 		female_names = {
 			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina 
@@ -19108,11 +19461,45 @@ south_arabic = {
 		Sirhan Taimur Tawfiq Umaya Wahid Yahya Yahya Ya'qub Jacob Yasar Youkhanna John Zahir
 	}
 }
+
+#Depricated
+polynesian = {
+	graphical_culture = southamericagfx
+	dynasty_names = {
+	}
+}
+
 ####Missing in Files
 
 missing_group = {
 	tocobaga = {
 	}
 	timucua = {
+	}
+	papuan = { 
+	}
+	seneca = {
+	}
+	mingo = {
+	}
+	polabian_culture = { 
+	}
+	nahanni = {
+	}
+	algonquin = {
+	}
+	yamasee = {
+	}
+	yoron = {
+	}
+	tionontate = {
+	}
+	maliseet = {
+	}
+	maa = {
+	}
+	plains_cree = {
+	}
+	massachusset = {
 	}
 }

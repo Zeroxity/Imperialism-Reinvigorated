@@ -2,10 +2,10 @@
 
 owner = SHY
 controller = SHY
-culture = khazak
+culture = qipchaq
 religion = sunni
 capital = "Orda-Bazar"
-trade_goods = grain
+trade_goods = horses
 hre = no
 base_tax = 12 
 base_production = 12

@@ -2,7 +2,7 @@
 owner = TIM
 controller = TIM
 culture = kurdish
-religion = sunni		#Yazidi
+religion = alevi
 capital = "Khanaqin"
 trade_goods = wool
 hre = no

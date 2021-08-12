@@ -3,7 +3,7 @@
 owner = DSI
 controller = DSI
 culture = kurdish
-religion = sunni	#Yazidi
+religion = yazidi
 capital = "Duhok"
 trade_goods = cloth
 hre = no

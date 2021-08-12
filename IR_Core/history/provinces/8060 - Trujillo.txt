@@ -1,5 +1,7 @@
 #BT's Western Europe Overhaul in 12.0
-
+latent_trade_goods = {
+	phosphate
+}
 owner = TLD
 controller = TLD
 add_core = TLD
@@ -10,7 +12,7 @@ capital = "Trujillo"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = ir_apiculture
+trade_goods = apiculture
 is_city = yes
 hre = no
 

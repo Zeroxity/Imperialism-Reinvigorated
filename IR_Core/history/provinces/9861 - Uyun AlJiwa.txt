@@ -1,16 +1,16 @@
 
-owner = UNZ
-controller = UNZ
+owner = QSS
+controller = QSS
 culture = najdi
 religion = sunni
 capital = "Uyun AlJiwa"	
-trade_goods = ir_fruit		#Leeks and other vegetables
+trade_goods = fruit		#Leeks and other vegetables
 hre = no
 base_tax = 2  
 base_production = 2 
 base_manpower = 2 
 is_city = yes
-add_core = UNZ
+add_core = QSS
 
 discovered_by = muslim
 discovered_by = ottoman

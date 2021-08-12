@@ -3,7 +3,7 @@
 owner = TIM
 controller = TIM
 culture = kurdish
-religion = sunni
+religion = alevi   #yarsani
 capital = "Kirmanshah"
 trade_goods = grain
 hre = no

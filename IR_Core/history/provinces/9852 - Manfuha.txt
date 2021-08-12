@@ -1,17 +1,18 @@
 #392 - Al-Arid
 
-owner = MRU
-controller = MRU
+owner = HNF
+controller = HNF
 culture = najdi
 religion = sunni
 capital = "Manfuha"
-trade_goods = ir_dates
+trade_goods = dates
 hre = no
 base_tax = 2  
 base_production = 1 
 base_manpower = 2 
 is_city = yes
-add_core = MRU
+add_core = HNF
+add_core = MFH
 
 discovered_by = muslim
 discovered_by = ottoman

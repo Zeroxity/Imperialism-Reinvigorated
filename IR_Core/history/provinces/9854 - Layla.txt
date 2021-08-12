@@ -1,6 +1,5 @@
 
-owner = MRU
-controller = MRU
+
 culture = najdi
 religion = sunni
 capital = "Layla"
@@ -9,8 +8,10 @@ hre = no
 base_tax = 1  
 base_production = 1 
 base_manpower = 2 
-is_city = yes
-add_core = MRU
+is_city = no
+native_size = 10
+native_ferocity = 7
+native_hostileness = 5
 
 discovered_by = muslim
 discovered_by = ottoman
@@ -20,6 +21,8 @@ discovered_by = east_african
 
 
 add_permanent_province_modifier = {       name = climate_sicco        duration = -1 }
+
+#1444.1.1 = { tribal_owner = DAW }
 1515.1.1 = { discovered_by = POR }
 
 1744.1.1 = {

@@ -7,45 +7,52 @@ controller = NAP
 culture = neapolitan
 religion = catholic 
 hre = no 
-base_tax = 2
-base_production = 3
-trade_goods = ir_olives
-base_manpower = 2
+base_tax = 7
+base_production = 6
+trade_goods = olives
+base_manpower = 6
 capital = "Taranto"
 is_city = yes 
 add_core = NAP
+
+village = yes
+fort_16th = yes
+walls = yes
+shipwright = yes
 
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
+extra_cost = 16
+center_of_trade = 2
 
 #Province history completed by - Chairman Meow (JP) 
 add_permanent_province_modifier = {       name = climate_mediterranean              duration = -1 }
 1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-	owner = TAN
-	controller = TAN
-	add_core = TAN
+	owner = RAN
+	controller = RAN
+	add_core = RAN
 	remove_core = NAP
 }
 1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
-	remove_core = TAN
+	remove_core = RAN
 }
 1421.5.4 = {
-	owner = TAN
-	controller = TAN
-	add_core = TAN
+	owner = RAN
+	controller = RAN
+	add_core = RAN
 	remove_core = NAP
 } # Titles granted to Giannantonio, becoming most powerful person in Naples and gaining Bari.
 1465.3.30 = {
 	owner = NAP
 	add_core = NAP
 	controller = NAP
-	remove_core = TAN
+	remove_core = RAN
 } # Giannantonio's heir was wife of king. On her death in 1465 annexed to crown.
 1494.1.1 = { 
 	add_core = FRA 
@@ -104,7 +111,7 @@ add_permanent_province_modifier = {       name = climate_mediterranean          
 #} # Massena takes possesion of Naples
 1806.3.11 = {
 	controller = FRA
-} # France beats Neapolitan Army, whole Kingdom falls to French forces
+} # France beats NeapoliRAN Army, whole Kingdom falls to French forces
 1806.3.30 = {
 	owner = FRA
 	add_core = FRA

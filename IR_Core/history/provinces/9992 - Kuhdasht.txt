@@ -2,7 +2,7 @@
 owner = LRI
 controller = LRI
 culture = kurdish
-religion = shiite
+religion = alevi   #yarsani
 capital = "Kuhdasht"
 trade_goods = grain
 hre = no
